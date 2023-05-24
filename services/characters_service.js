@@ -7,7 +7,7 @@ function CrearTarjetas(personaje) {
         <img src="${personaje.image}" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">${personaje.name}</h5>
-          <p class="card-text">${personaje.name}</p>
+          <p class="card-text">${personaje.gender}</p>
         </div>
     </div>`;
 
